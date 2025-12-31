@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Farming AI</title>
+    <style>
+        body { font-family: Arial; background-color: #e8f5e9; text-align: center; padding-top: 40px; }
+        input, button { padding: 12px; width: 320px; margin: 10px; }
+        button { background-color: green; color: white; border: none; }
+        .answer { white-space: pre-line; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<h1>👨‍🌾 Farming AI (Myanmar + English)</h1>
+<p>မေးခွန်းကို မြန်မာ / English ရိုက်ပါ</p>
+
+<form method="POST">
+    <input type="text" name="question" placeholder="Example: စပါး ပိုးမွှား ဘယ်လိုကာကွယ်မလဲ? / How to control rice pests?" required>
+    <br>
+    <button type="submit">Get Answer / အဖြေရယူမယ်</button>
+</form>
+
+<div class="answer">
+    <h3>{{ answer }}</h3>
+</div>
+
+</body>
+</html>
